@@ -103,19 +103,14 @@ change.innerHTML="already";
     }
 
 
-function search(){
-
+let seabtn=document.getElementById("sea-btn");
+seabtn.addEventListener('click',function(){
 let popinput=document.getElementById('pop-input');
-let inp=document.querySelector('.inp');
-
 
 if(popinput.style.display == "none"){
-popinput.style.display="block";
-inp.focus();
-}
-else{
-popinput.style.display="none";
-
+    popinput.style.display="block";   
+}else{
+    popinput.style.display="none";  
 }
 
-}
+});
