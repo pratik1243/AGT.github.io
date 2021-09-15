@@ -427,7 +427,7 @@ background-color: white;
 
 }
 
-.pop-input{
+#pop-input{
 position: absolute;
 width: 97%;
 background-color: white;
@@ -440,7 +440,7 @@ padding-top: 0.7rem;
     padding-bottom: 0.7rem;
 }
 
-.pop-input input{
+#pop-input input{
   
    width: 97%;
    padding: 0.7rem;
@@ -456,14 +456,14 @@ background-color: rgb(221, 220, 220);
 @media(max-width:660px){
 
   
-.pop-input input{
+#pop-input input{
   
     width: 93%;
     
  
  }
  
- .pop-input{
+ #pop-input{
       
     width: 96%;
     
@@ -476,7 +476,7 @@ background-color: rgb(221, 220, 220);
 @media(max-width:460px){
 
   
-    .pop-input{
+    #pop-input{
       
         width: 95%;
         
@@ -488,7 +488,7 @@ background-color: rgb(221, 220, 220);
     @media(max-width:380px){
 
   
-        .pop-input{
+        #pop-input{
           
             width: 93%;
             
